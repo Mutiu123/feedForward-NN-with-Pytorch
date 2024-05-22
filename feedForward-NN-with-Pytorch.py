@@ -12,7 +12,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 input_size = 784 #28x28
 num_classes = 10
 hidden_size = 500
-num_epochs = 5
+num_epochs = 10
 learning_rate = 0.001
 batch_size = 100
 
